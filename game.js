@@ -22,10 +22,15 @@ var setupWizard = function() {
         description: 'MYSQL Host',
         'default': 'localhost'
       },
-      mysql_port: {
+      mysql_user: {
         type: "string",
-        description: 'MYSQL Port',
-        'default': 3306
+        description: 'MYSQL User',
+        'default': "root"
+      },
+      mysql_password: {
+        type: "string",
+        description: 'MYSQL Password',
+        'default': "password"
       },
       mysql_database: {
         type: "string",

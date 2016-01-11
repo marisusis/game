@@ -7,6 +7,13 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node game.js"
   },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/spacegeek224/game"
+  },
+  "bugs": {
+    "url":"https://github.com/spacegeek224/game/issues"
+  },
   "author": "Maris Usis",
   "license": "MIT",
   "devDependencies": {
