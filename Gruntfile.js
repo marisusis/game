@@ -33,6 +33,19 @@ module.exports = function(grunt) {
             dest: 'dist/game/js',    // destination folder
             expand: true           // required when using cwd
           }]
+        },
+        chat: {
+          files: [{
+            cwd: 'src/client/chat',  // set working folder / root to copy
+            src: '**/*.html',           // copy all files and subfolders
+            dest: 'dist/chat',    // destination folder
+            expand: true           // required when using cwd
+          },{
+            cwd: 'src/client/chat/js',  // set working folder / root to copy
+            src: '**/*.js',           // copy all files and subfolders
+            dest: 'dist/chat/js',    // destination folder
+            expand: true           // required when using cwd
+          }]
         }
     }
     
