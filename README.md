@@ -5,7 +5,7 @@
 <!--[![GitHub release](https://img.shields.io/github/release/spacegeek224/game.svg)]()-->
 <!--[![GitHub tag](https://img.shields.io/github/tag/spacegeek224/game.svg)]()-->
 
-> A work in progress
+> A work in progress...
 
 ##Goal
 
