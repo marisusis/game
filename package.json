@@ -12,7 +12,7 @@
     "url": "https://github.com/spacegeek224/game"
   },
   "bugs": {
-    "url":"https://github.com/spacegeek224/game/issues"
+    "url": "https://github.com/spacegeek224/game/issues"
   },
   "author": "Maris Usis",
   "license": "MIT",
@@ -44,6 +44,7 @@
     "prompt": "^0.2.14",
     "underscore": "^1.8.3",
     "colors": "^1.1.2",
-    "mysql": "^2.10.0"
+    "mysql": "^2.10.0",
+    "codecov.io": "^0.1.6"
   }
 }
