@@ -11,6 +11,9 @@ node_js:
 before-install:
   - echo "Installing..."
 install: 
-  - npm install -d
-  - sudo npm install -g grunt-cli
-script: grunt
+  - npm install --dev -d
+  - sudo npm install -g grunt-cli codecov istanbul
+script: 
+  - istanbul cover ./node_modules/mocha/bin/_mocha --report lcovonly -- -R spec
+  - codecov
+  - grunt
