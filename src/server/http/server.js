@@ -6,7 +6,7 @@ var path = require('path');
 var log = require('util').log;
 
 app.get('/*', function (req, res) {
-  res.sendFile(path.resolve('/dest/'+req.path));
+res.sendFile(path.resolve('dist/'+req.path));
 });
 
 app.listen(3000, function () {
