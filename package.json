@@ -2,10 +2,9 @@
   "name": "game",
   "version": "0.0.2",
   "description": "A game",
-  "main": "game.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node game start"
+    "start": "node game.js start"
   },
   "repository": {
     "type": "git",

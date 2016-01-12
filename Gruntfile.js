@@ -28,6 +28,11 @@ module.exports = function(grunt) {
             dest: 'dist/game',    // destination folder
             expand: true           // required when using cwd
           },{
+            cwd: 'src/client/game/img',  // set working folder / root to copy
+            src: '**/*.png',           // copy all files and subfolders
+            dest: 'dist/game/img',    // destination folder
+            expand: true           // required when using cwd
+          },{
             cwd: 'src/client/game/js',  // set working folder / root to copy
             src: '**/*.js',           // copy all files and subfolders
             dest: 'dist/game/js',    // destination folder
@@ -47,7 +52,16 @@ module.exports = function(grunt) {
             expand: true           // required when using cwd
           }]
         }
-    }
+    },
+    watch: {
+      scripts: {
+      files: ['src/client/game/**/*'],
+      tasks: ['copy'],
+      options: {
+        spawn: false,
+      },
+    },
+},
     
     
   });

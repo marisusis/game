@@ -5,9 +5,7 @@ var colors = require('colors');
 var path = require('path');
 var log = require('util').log;
 
-app.get('/*', function (req, res) {
-res.sendFile(path.resolve('dist/'+req.path));
-});
+app.use('/',require('./routes.js'));
 
 app.listen(3000, function () {
   log('Server started!'.green.bold);
