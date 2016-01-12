@@ -12,5 +12,5 @@ before-install:
   - echo "Installing..."
 install: 
   - npm install -d
-  - npm install -g grunt-cli
+  - sudo npm install -g grunt-cli
 script: grunt
