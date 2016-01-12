@@ -8,4 +8,9 @@ node_js:
   - "0.8"
   - "0.6"
   - "iojs"
+before-install:
+  - echo "Installing..."
+install: 
+  - npm install -d
+  - npm install -g grunt-cli
 script: grunt
