@@ -1,5 +1,7 @@
 #game
 
+[![Join the chat at https://gitter.im/spacegeek224/game](https://badges.gitter.im/spacegeek224/game.svg)](https://gitter.im/spacegeek224/game?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
+
 | A work in progress...
 
 ##Goal
