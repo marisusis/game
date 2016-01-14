@@ -18,5 +18,10 @@
     "name": "Wooden Helmet",
     "type": "armor",
     "defense": 10
+  },
+  "iron_sword": {
+    "name":"Iron Sword",
+    "type":"weapon",
+    "damage":15
   }
 }
