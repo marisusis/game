@@ -124,7 +124,7 @@ program
   .command('start')
   .description('Start the game!')
   .action(function() {
-    console.log('starting the server...');
+    console.log('starting...'.white.bold);
     // todo: validate config?
     var main = require(__dirname + '/main.js');
   });

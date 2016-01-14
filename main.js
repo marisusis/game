@@ -1,7 +1,9 @@
 var path = require('path');
+var log = require('util').log;
+var colors = require('colors');
 
 global.APP_ROOT_PATH = __dirname;
-console.log(path.resolve('/'));
-var httpsrv = require('./src/server/http/server.js');
 
-console.log('STARTING');
+var httpsrv = require('./server/http/server.js');
+
+log('Starting servers...'.blue.bold);
