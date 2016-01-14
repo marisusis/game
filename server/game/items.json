@@ -2,18 +2,21 @@
   "apple" : {
     "name": "Apple",
     "type": "food",
-    "id": 1
+    "nutrition":12
+  },
+  "orange": {
+    "name":"Orange",
+    "type": "food",
+    "nutrition":10
   },
   "wood_sword": {
     "name": "Wooden Sword",
     "type": "weapon",
-    "id": 2,
     "damage":  10
   },
   "wood_helmet": {
     "name": "Wooden Helmet",
     "type": "armor",
-    "id": 3,
     "defense": 10
   }
 }
