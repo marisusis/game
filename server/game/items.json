@@ -1,27 +1,42 @@
 {
-  "apple" : {
-    "name": "Apple",
-    "type": "food",
-    "nutrition":12
-  },
-  "orange": {
-    "name":"Orange",
-    "type": "food",
-    "nutrition":10
-  },
-  "wood_sword": {
-    "name": "Wooden Sword",
-    "type": "weapon",
-    "damage":  10
-  },
-  "wood_helmet": {
-    "name": "Wooden Helmet",
-    "type": "armor",
-    "defense": 10
-  },
-  "iron_sword": {
-    "name":"Iron Sword",
-    "type":"weapon",
-    "damage":15
-  }
+    "apple": {
+        "name": "Apple",
+        "type": "food",
+        "nutrition": 12
+    },
+    "orange": {
+        "name": "Orange",
+        "type": "food",
+        "nutrition": 10
+    },
+    "wood_sword": {
+        "name": "Wooden Sword",
+        "type": "weapon",
+        "damage": 10
+    },
+    "wood_helmet": {
+        "name": "Wooden Helmet",
+        "type": "armor",
+        "defense": 3
+    },
+    "wood_chestplate": {
+        "name": "Wooden Chestplate",
+        "type": "armor",
+        "defense": 6
+    },
+    "wood_leggings": {
+        "name": "Wooden Leggings",
+        "type": "armor",
+        "defense": 5
+    },
+    "wood_boots": {
+        "name": "Wooden Boots",
+        "type": "armor",
+        "defense": 2
+    },
+    "wood_bow": {
+        "name": "Wooden Bow",
+        "type": "weapon",
+        "damage": 2
+    }
 }
