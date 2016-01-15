@@ -3,7 +3,6 @@ var method = Item.prototype;
 function Item(data) {
   this.name = data.name;
   this.type = data.type;
-  this.id = data.id;
   if (this.type == 'weapon') {
     if (data.damage === undefined) {
       data.damage = 0;
